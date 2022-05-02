@@ -35,7 +35,7 @@ Basically any real data works on the methodology, but here I use FaceForensics++
     wget -O resources/shape_predictor_68_face_landmarks.dat.bz2 https://github.com/davisking/dlib-models/raw/master/shape_predictor_68_face_landmarks.dat.bz2
     bzip2 -d resources/shape_predictor_68_face_landmarks.dat.bz2
     ```
-3. run data/preprocessing/faceforensics_process_frames.py
+3. run data/processing/faceforensics_process_frames.py
     ```bash
     python -m data.processing.faceforensics_process_frames.py \
         --source_dir_manipulated $manipulated \
